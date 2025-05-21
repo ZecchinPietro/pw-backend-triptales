@@ -42,7 +42,7 @@ INSTALLED_APPS = [
     'backend.apps.BackendConfig',
     'rest_framework',
     'corsheaders',
-    'api',
+    'backend',
 ]
 
 MIDDLEWARE = [
@@ -96,8 +96,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'pwtriptales_db',
-        'USER': 'tuo_utente_mysql',
-        'PASSWORD': 'tua_password_mysql',
+        'USER': 'root',
+        'PASSWORD': '11526',
         'HOST': 'localhost',
         'PORT': '3306',
     }
