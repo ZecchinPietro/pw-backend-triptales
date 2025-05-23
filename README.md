@@ -35,6 +35,9 @@ Installa le dipendenze:
 
 pip install -r requirements.txt
 
+#Diagramma A/R:
+![Diagramm AR](https://github.com/user-attachments/assets/f8f1c490-2e46-4c64-a3c1-746da5f0322e)
+
 Configura il database MySQL in triptales/settings.py:
 
 DATABASES = {
