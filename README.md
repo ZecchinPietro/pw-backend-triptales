@@ -147,9 +147,9 @@ pw-backend-triptales/
 
 Il frontend Android è disponibile nella repo pw-frontend-triptales, e comunica con il backend via Retrofit.
 
-Uso didattico – Istituto Tecnico Informatica Quinta Superiore.
+Uso didattico – Istituto Tecnico Informatico ITIS ROSSI Quinta Superiore.
 
-(Favero Mattia, Minante Davide, Zecchin Pietro)
+Crediti: Favero Mattia, Minante Davide, Zecchin Pietro
 
 
 
