@@ -39,7 +39,6 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'backend.apps.BackendConfig',
     'rest_framework',
     'corsheaders',
     'backend',
@@ -96,8 +95,8 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'pwtriptales_db',
-        'USER': 'root',
-        'PASSWORD': '11526',
+        'USER': 'triptales',
+        'PASSWORD': 'tommaso',
         'HOST': 'localhost',
         'PORT': '3306',
     }
