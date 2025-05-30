@@ -27,7 +27,7 @@ SECRET_KEY = 'django-insecure-s%8b_ner72n5_$+a*w7oxl%%qpt_rxm10z_l#ie+w3ziu!w4i7
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['192.168.15.158', 'localhost', '127.0.0.1']
+ALLOWED_HOSTS = ['*']
 AUTH_USER_MODEL = 'backend.Utente'
 
 # Application definition
@@ -95,9 +95,9 @@ DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
         'NAME': 'pwtriptales_db',
-        'USER': 'triptales',
-        'PASSWORD': 'tommaso',
-        'HOST': 'localhost',
+        'USER': 'root',
+        'PASSWORD': 'rootroot',
+        'HOST': 'db',
         'PORT': '3306',
     }
 }
